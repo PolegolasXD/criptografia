@@ -1,5 +1,5 @@
 const readLine = require('./readLine');
-const { cifar_palavra } = require('./script');
+const { cifar_palavra } = require('./cifar_palavra');
 
 const principal = () => {
 	return readLine.question('\n\n1 - Encriptar \n2 - Desencriptar\n0 - Sair \n\n| ', (resposta) => {
