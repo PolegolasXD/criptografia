@@ -1,15 +1,9 @@
-Total de palavras: 2
+Total de palavras: 1
 Palavras registradas:
 
-palavra: eu te amo amor da minha vida v w x y z 
+palavra: 0
 
-encriptada: jz yj frt frtw if rnsmf anif a b c d e 
-
--------
-
-palavra: jz yj frt frtw if rnsmf anif a b c d e
-
-encriptada: 
+encriptada: e
 
 -------
 

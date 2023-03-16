@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-const { chave, letras } = require('../criptografia1/utils');
+const { chave, letras } = require('../criptografia/utils');
 
-let { resultado_encriptado, resultado_desencriptado, historico_de_resultados } = require('../criptografia1/utils');
+let { resultado_encriptado, resultado_desencriptado, historico_de_resultados } = require('../criptografia/utils');
 
 const salvar_no_historico = (palavra, encripatada) => {
 	historico_de_resultados.push({
@@ -37,6 +37,7 @@ const mod_do_excel = (dividendo, divisor) => {
 	// com números negativos que o javascript
 	// faz de uma forma diferente por isso foi
 	// necessário uma função para fazer essa tratativa
+	// por isso criei a função com a formula do excel para funcionar 
 
 	let resto = dividendo % divisor;
 	return resto >= 0 ? resto : resto + divisor;
